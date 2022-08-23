@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<header>
+    <h1>Cadastro</h1>
+</header>
+
+<body>
+
+    <h2>Olá, preencha seus dados para realizar sua inscrição</h2>
+    <form action="/paginas/login.html" method="post">
+        <div class="display_1">
+            <div class="column_1">
+                <p>Nome</p>
+                <input type="text" name="" id="name">
+                <p>E-mail</p>
+                <input type="mail" name="" id="name">
+                <div class="sub">
+                    <div class="cpf">
+                        <p>CPF</p>
+                        <input type="text">
+                    </div>
+                    <div class="rg">
+                        <p>RG</p>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="sub">
+                    <div class="cpf">
+                        <p>Nacionalidade</p>
+                        <input type="text">
+                    </div>
+                    <div class="rg">
+                        <p>Escolaridade</p>
+                        <select name="Escolaridade" id="Escolaridade">
+                            <option value="">Fundamental (Incompleto)</option>
+                            <option value="">Fundamental (Completo)</option>
+                            <option value="">Médio (Incompleto)</option>
+                            <option value="">Médio (Completo)</option>
+                            <option value="">Superior (Incompleto)</option>
+                            <option value="">Superior (Completo)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="column_2">
+                <p>Endereço</p>
+                <input type="text" name="" id="adress">
+                <div class="sub">
+                    <div>
+                        <p>Telefone</p>
+                        <input type="tel" name="" id="phone">
+                    </div>
+                    <div class="birthdate">
+                        <p>Data de nascimento</p>
+                        <input type="date" name="" id="phone">
+                    </div>
+                </div>
+                <div class="sexo">
+                    <p>Sexo</p>
+                    <div class="sex">
+                        <p>Masculino</p>
+                        <input type="radio" name="sexo" id="">
+                        <p>Feminino</p>
+                        <input type="radio" name="sexo" id="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="enviar">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+
+</html>
