@@ -1,0 +1,17 @@
+.botão{
+    font-family: sans-serif;  
+    text-decoration: none;
+    position: fixed;
+    right: 50%;
+    margin-top: 30px;
+    font-size: 30px;
+    background-image: linear-gradient(#3090df, #2974ad);   
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 1px 1px 1px 0px rgba(206, 201, 201, 0.753);
+}
+.botão:hover{
+    background:linear-gradient(#37a5ff,#369ae6);
+}
